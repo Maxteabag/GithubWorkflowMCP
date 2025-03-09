@@ -1,4 +1,5 @@
 # GitHub Workflow Debugger MCP
+[![smithery badge](https://smithery.ai/badge/@Maxteabag/githubworkflowmcp)](https://smithery.ai/server/@Maxteabag/githubworkflowmcp)
 
 A Multi-Choice Prompt (MCP) utility for diagnosing and fixing GitHub Actions workflow failures using the GitHub API.
 
@@ -16,6 +17,15 @@ This tool helps users diagnose and fix GitHub Actions workflow failures through 
 
 ## Installation
 
+### Installing via Smithery
+
+To install githubworkflowmcp for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@Maxteabag/githubworkflowmcp):
+
+```bash
+npx -y @smithery/cli install @Maxteabag/githubworkflowmcp --client claude
+```
+
+### Manual Installation
 ```bash
 # Clone the repository
 git clone https://github.com/yourusername/github-workflow-debugger-mcp.git
